@@ -5,9 +5,7 @@ variable "image_id"{
     description = "RHEL-9 AMI ID"
 
 }
-variable "sg_name"{
-    
-}
+
 variable "instance_type"{
     type=string
     default = "t3.micro"
